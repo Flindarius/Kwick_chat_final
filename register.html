@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div id="register">
+            <h1 id="h1_sign_in">REGISTER</h1>
+            <h2 id="h2_sign_in">Welcome, enter an user name and a password to register.</h2>
+            <h2 id="log_h2">Login</h2>
+            <input id="log_input" class="log_input" type="text" name="name" required minlength="4" maxlength="23" size="10">
+            <h2 id="mdp_h2">Password</h2>
+            <input id="pwd_input" class="mdp_input salut" type="password" name="password" required minlength="4" maxlength="23" size="10"></div>
+            <h2 id="mdp2_h2">Re-enter password</h2>
+                <input id="pwd2_input" class="log2_input" type="password" name="password" required minlength="4" maxlength="23" size="10"></div>
+            
+            <button class="go_input" id="go_inscription"  type="button" > Enter </button>
+            <button class="connecter_input" id="connecter_input" onclick="location.href='index.html'" type="button"> Already got an account? </button>
+
+    </div>
+    <script src="src/jquery.js"></script>
+    <script src="src/login.js"></script>
+
+</body>
+</html>

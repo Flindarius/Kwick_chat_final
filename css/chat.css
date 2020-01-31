@@ -1,0 +1,268 @@
+@font-face{
+    font-family: chocolat;
+    src: url(../font/chocolat.ttf);
+}
+body{
+    background-color:#616283;
+    height: 30px;
+    overflow:hidden;
+}
+#section_principale{
+    display: flex;
+    width: 100%;
+    height: 720px;
+}
+#premiere_section{
+    width: 20%;
+}
+#header_premiere_section{
+    width: 100%;
+    height: 10%;
+    margin-top: -5px ;
+    /* border: 1px solid white; */
+    background-color: #616283;
+}
+#personne_connectes{
+    width: 100%;
+    height: 90%;
+    background-color: #374A67;
+    overflow: auto;
+}
+.users{
+    margin-left:10px ;
+    margin-top: 10px;
+    text-align:center;
+    width: 80%;
+    height: 9%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+.users_moi{
+    margin-left:10px ;
+    margin-top: 10px;
+    text-align:center;
+    width: 80%;
+    height: 9%;
+    font-size: 30px;
+    /* color: #9E7B9B; */
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+}
+#heure_date_moi{
+    font-family: chocolat;
+    color: #374A67;
+    margin-left:580px ;
+    margin-top: -20px;
+    width: 300px;
+    height: 20px;
+    font-size: 20px;
+}
+#heure_date{
+    font-family: chocolat;
+    color: #374A67;
+    margin-left:480px ;
+    margin-top: -20px;
+    width: 300px;
+    height: 20px;
+    font-size: 20px;
+}
+.image_avatar{
+    height: 50px;
+    margin-left: -5px;
+}
+#deuxieme_section{
+    margin-top: 5px;
+    width: 80%;
+}
+#header_deuxieme_section{
+    display: flex;
+    width: 100%;
+    height: 13%;
+    background-color: #616283;
+}
+#h2_header_title{
+    width: 2000px;
+    font-family: chocolat;
+    margin-left: 350px;
+    font-size: 80px;
+    margin-top: -5px;
+    color: white;
+}
+#deconnexion{
+    color: black;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: -20px;
+    border-radius: 25px ;
+}
+#deconnexion:hover{
+    color: white;
+    background-color: rgba(255, 39, 1, 0.5);
+}
+#chat_header{
+    height: 100%;
+    width: 90%;
+}
+#setting{
+    height: 100%;
+    width: 10%;
+}
+.fa-power-off{
+    color: white;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top:15px;
+}
+.fa-power-off:hover{
+    color: rgb(255, 0, 0);
+}
+#zone_de_chat{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+    background-color: #9E7B9B;  
+    overflow: auto;
+    overflow-x: hidden;
+}
+#message{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+  background: white;
+  padding: 10px;
+  font-weight: 900;
+  color: rgb(34, 34, 34);
+  font-family: arial;
+  position: relative;
+}
+#message_moi{
+    margin-top: 20px;
+    margin-left: 580px;
+    margin-bottom: 20px;
+    width: 50%;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  font-weight: 900;
+  color: rgb(34, 34, 34);
+  font-family: arial;
+  position: relative;
+}
+#name_des_users{
+    font-family: chocolat;
+    color: #374A67;
+    margin-top: 5px;
+    margin-left:20px ;
+    width: 50px;
+    height: 20px;
+    font-size: 30px;
+}
+#name_de_moi{
+    font-family: chocolat;
+    color: #374A67;
+    margin-left:1080px ;
+    width: 50px;
+    height: 20px;
+    font-size: 30px;
+}
+#image_avatar_sms{
+    height: 20px;
+}
+.message_bubble:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 6px;
+}
+.message_bubble_2:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #ffffff;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ffffff;
+    border-bottom: 10px solid transparent;
+    right: -19px;
+    top: 6px;
+}
+#zone_decriture{
+    width: 100%;
+    height: 15%;
+    background-color: #616283; 
+}
+.chat_zone_decriture{
+    width: 70%;
+    margin-top: 30px;
+    height: 35%;
+    margin-left:110px ;
+}
+.envoyer_le_chat{
+    height: 35%;
+    border-radius: 15px ;
+    margin-left:40px ;
+}
+.envoyer_le_chat:hover{
+    background-color: rgb(110, 110, 192);
+    color: white;
+}
+#avatarun{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#header_h3{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: yellowgreen;
+}
+#header_h2{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+}
+#avatarquiparle{
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#message_avatar{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 25px;
+    height: 50px;
+    width: 360px;
+}
+#kikou{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#avatarquiparle2{
+    margin-top: 150px;
+    margin-left: -465px;
+    height: 90px;
+}
+#message_avatar2{
+    margin-top: 170px;
+    margin-left: 20px;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+#kikou2{
+    margin-left: 15px;
+    margin-top: 5px;
+}
